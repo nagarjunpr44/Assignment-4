@@ -1,0 +1,232 @@
+// // Task 1: Simple Programs todo for variables
+
+//1.Declare four variables without assigning values and print them in console
+
+// var a,b,c,d;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+
+//2.How to get value of the variable myvar as output
+
+// var myvar= 1;
+// console.log("myvar");
+
+var myvar=1;
+console.log(myvar);
+
+// Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+var firstname;
+var lastname;
+var martialstatus;
+var Country;
+var age;
+
+
+// 4.Declare variables to store your first name, last name, marital status, country and age in a single line
+
+var firstname,lastname,martialstatus,Country,age;
+
+//5. Declare variables and assign string, boolean, undefined and null data types
+
+var a="Hello",b=true,c,d=null;
+
+//6. Convert the string to integer
+// parseInt()
+// Number()
+// Plus sign(+)
+
+var x=parseInt("100",10);
+var y=Number("127");
+var z=+"1234";
+
+//7. Write 6 statement which provide truthy & falsey values.
+//The following values are always falsy:
+
+false
+0 (zero)
+-0 (minus zero)
+0n (BigInt zero)
+'', "", `` (empty string)
+null
+undefined
+NaN
+
+//Everything else is truthy. That includes:
+
+'0' (a string containing a single zero)
+'hello' (a string containing the text “hello”)
+[] (an empty array)
+{} (an empty object)
+function(){} (an “empty” function)
+
+
+//Task 2: Simple Programs todo for Operators
+
+//1.Square of a number
+
+let num=4**2;// **operator 
+
+//2.Swapping 2 numbers
+
+let a = 2;
+let b = 3;
+
+a = a + b;
+b = a - b;
+a = a - b;
+
+console.log(a);
+console.log(b);
+
+//3.Addition of 3 numbers
+var a,b,c;
+var sum=a+b+c;
+console.log(sum);
+
+//4.Celsius to Fahrenheit conversion
+
+var Celsius=40;
+var Fahrenheit;
+Fahrenheit=(Celsius*1.8)+32;
+console.log(Fahrenheit);
+
+//5.Meter to miles
+
+var meter=300;
+var miles;
+miles=meter*0.000621;
+console.log(miles);
+
+//6.Pounds to kg
+
+var Pounds=100;
+var kg;
+kg=Pounds*0.453592;
+console.log(kg);
+
+//7.Calculate Batting Average
+
+var runsscored=155;
+var timesout=3;
+var Battingaverage=runsscored/timesout;
+console.log(Battingaverage);
+
+//8.Calculate five test scores and print their average
+
+var test1=80,test2=95,test3=83,test4=77,test5=97;
+var sum=test1+test2+test3+test4+test5;
+var average=sum/5;
+console.log(average);
+
+//9.Power of any number x ^ y
+
+var x=10;
+var y=3;
+var power=x^y;
+console.log(power);
+
+//10. Calculate Simple Interest
+
+var p=1000,t=2,r=10,simpleinterest;
+
+simpleinterest=(p*t*r)/100;
+
+console.log(simpleinterest);
+
+//11.Calculate area of an equilateral triangle
+
+var a=12,area;
+area=(1.73*a*a)/4;
+console.log(area);
+
+//12.Area Of Isosceles Triangle
+
+var h=5,b=10,area;
+area=(1*b*h)/2;
+console.log(area);
+
+//13.Volume Of Sphere
+
+var r=12,Volume;
+Volume=(2*3.14*r*r*r)/3;
+console.log(Volume);
+
+//14.volume of prism
+
+var l=10,b=12;h=8,volume;
+volume=(l*b*h)/2;
+console.log(volume);
+
+//15.Find area of a triangle
+
+var b=8,h=9,area;
+area=(b*h)/2;
+console.log(area);
+
+//16.Give the Actual cost and Sold cost, Calculate Discount Of Product
+
+var actualcost=100,soldcost=95,Discount;
+Discount=(actualcost-soldcost);
+console.log(Discount);
+
+//17.Given their radius of a circle and find its diameter, circumference and area.
+
+var r=10,diameter,circumference,area;
+
+diameter=2*r;
+circumference=2*3.14*r;
+area=3.14*r*r;
+console.log(diameter);
+console.log(circumference);
+console.log(area);
+
+//18.Given two numbers and perform all arithmetic operations.
+var a=20,b=10,addition,subtract,multiply,divide;
+addition=a+b;
+subtract=a-b;
+multiply=a*b;
+divide=a/b;
+
+//19.Display the asterisk pattern as shown below(No loop needed):
+// *****
+// *****
+// *****
+// *****
+// *****
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+
+//20.Calculate electricity bill?
+//For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+
+var consumer=100,unitrate=10,bill;
+bill=(consumer*unitrate)*30;
+console.log(bill);
+
+//21.Program To Calculate CGPA
+
+var sub1=9.1,sub2=8.6,sub3=9.5,sub4=9.1,sub5=8.7,cgpa;
+cgpa=(sub1+sub2+sub3+sub4+sub5)/5;
+console.log(cgpa);
+
+//Task 3: Simple Programs todo for Condition , Looping and Arrays
+
+//1.Write a loop that makes seven calls to console.log to output the following triangle:
+
+var add='';
+for(i=0;i<7;i++)
+{
+    add=add+"#";
+    console.log(add);
+}
+
+
+
+
+
