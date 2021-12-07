@@ -1,2 +1,22 @@
 //Use the rest countries API url -> https://restcountries.eu/rest/v2/all and display all the country flags in console
 
+
+// Code -Javascript
+
+var req= new XMLHttpRequest();
+req.open('GET','https://restcountries.com/v2/all',true);
+req.send();
+req.onload=function()
+{
+    var result=JSON.parse(req.response);
+    console.log(result);
+    for(var i=0;i<=result.length;i++)
+    try
+    {
+        console.log(result[i].flag)
+    }
+    catch(e)
+    {
+        console.log("No flag Found");
+    }
+}
